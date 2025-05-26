@@ -37,5 +37,7 @@ Xem báo cáo ở tab Coverage.
 
 ## Kết quả đo độ bao phủ
 Statement Coverage: 100%
+
 Branch Coverage: 100%
+
 ✅ Mã kiểm thử đơn vị hoàn thiện và có độ bao phủ toàn diện.
