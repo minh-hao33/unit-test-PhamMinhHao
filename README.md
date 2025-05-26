@@ -16,4 +16,26 @@ Viết chương trình Java có 2 hàm:
 
 ## ▶️ Cách chạy chương trình
 
-Dùng JUnit 5 để chạy các hàm test trong `StudentAnalyzerTest`.
+Build và chạy test:
+```bash
+./gradlew test
+```
+hoặc nếu dùng Maven:
+```bash
+mvn test
+```
+## Cách đo độ bao phủ mã kiểm thử
+Công cụ sử dụng: IntelliJ IDEA có sẵn công cụ đo Code Coverage.
+
+#### Các bước thực hiện:
+
+Nhấn chuột phải vào file test StudentAnalyzerTest.java.
+
+Chọn Run 'StudentAnalyzerTest' with Coverage.
+
+Xem báo cáo ở tab Coverage.
+
+## Kết quả đo độ bao phủ
+Statement Coverage: 100%
+Branch Coverage: 100%
+✅ Mã kiểm thử đơn vị hoàn thiện và có độ bao phủ toàn diện.
